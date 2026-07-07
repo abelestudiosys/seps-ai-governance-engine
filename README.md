@@ -5,6 +5,12 @@ The system focuses on transforming complex financial information into structured
 Unlike traditional data analysis approaches focused only on displaying information, this architecture emphasizes traceability, validation logic, and structured reasoning.
 All financial data processed by this system was sourced directly from official SEPS public regulatory datasets — real indicators from real regulated institutions.
 
+ Why Was This Project Created
+This project was created to address a common challenge in financial analysis: raw financial indicators alone rarely provide a reliable assessment of an institution's overall health.
+Individual metrics can be misleading when interpreted in isolation. A meaningful evaluation requires combining multiple indicators, validating their relationships, identifying inconsistencies, and interpreting the results within a structured analytical framework.
+The objective of this project is to transform fragmented financial information into a coherent decision-support process through AI-assisted reasoning, rule-based validation, and multi-indicator analysis.
+
+
 System Architecture
 The engine follows a modular architecture composed of independent analytical layers.
 Architecture Layer
@@ -66,6 +72,11 @@ Modular governance architecture.
 Traceable analytical reasoning.
 Rule-based decision-support structures.
 Separation between validation and interpretation processes.
+
+## What Makes It Different
+Most financial analysis tools focus on displaying data. This engine focuses on validating it.
+The core difference is cross-indicator validation logic — the system does not evaluate indicators in isolation. It enforces consistency rules across multiple indicators simultaneously, detecting contradictions that single-indicator analysis would miss.
+The result is a governance-oriented framework that produces traceable, explainable analytical outputs rather than simple data summaries.
 
 
 Technical Approach
